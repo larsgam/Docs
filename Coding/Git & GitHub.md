@@ -1,102 +1,106 @@
 # Git & GitHub – Hurtigt Overblik
 
-## 1. Start et nyt projekt
+## Hurtigt workflow for daglig brug
 
-git init
+### Første gang i et nyt projekt:
 
-## 2. Tjek status
+* git init
 
-git status
+* git add .
 
-## 3. Tilføj ændringer til staging
+* git commit -m "First commit"
 
-Tilføj en bestemt fil:
-git add filnavn.py
+* git branch -M main
 
-Tilføj alt:
-git add .
+* git remote add origin https://github.com/brugernavn/repo.git 
 
-## 4. Commit dine ændringer
+* git push -u origin main
 
-git commit -m "Beskrivelse af ændringer"
+### Efterfølgende:
 
-## 5. Opret forbindelse til GitHub
+* git add .
 
-git remote add origin git@github.com:larsgam/Docs.git
+* git commit -m "Fixet X, tilføjet Y"
 
-## 6. Push første gang (ny branch)
+* git push
 
-git push -u origin main
 
-Al efterfølgende push:
-git push
 
-## 7. Hent ændringer fra GitHub
+## Flere commandoer
 
-git pull
+### 1. Start et nyt projekt
 
-## 8. Branching
+* **git init**
 
-Opret en branch:
-git branch feature-navn
+### 2. Tjek status
 
-Skift til branch:
-git switch feature-navn
+* **git status**
 
-Opret + skift:
-git switch -c feature-navn
+### 3. Tilføj ændringer til staging
 
-Se branches:
-git branch
+* **git add filnavn.py** Tilføj en bestemt fil
 
-## 9. Merge en branch ind i main
+* **git add** .Tilføj alt
 
-git switch main
-git merge feature-navn
+### 4. Commit dine ændringer
 
-## 10. Se commit-historik
+* **git commit -m** "Beskrivelse af ændringer"
 
-Kort historik:
-git log --oneline
+### 5. Opret forbindelse til GitHub
 
-Fuld historik:
-git log
+* **git remote add origin git@github.com:larsgam/repo.git**
 
-## 11. Undo og reset (mest brugt)
+### 6. Push første gang (ny branch)
 
-Fjern fil fra staging:
-git restore --staged filnavn.py
+* git push -u origin main
 
-Tilbagefør ændringer i fil:
-git restore filnavn.py
+* **git push** Al efterfølgende push
+  
 
-## 12. Klon et GitHub-repo
+### 7. Hent ændringer fra GitHub
 
-git clone https://github.com/brugernavn/repo.git
+* **git pull**
 
-## 13. Sæt main som default branch (hvis projekt starter med master)
+### 8. Branching
 
-git branch -M main
+* **git branch feature-navn** Opret en branch
 
-## 14. Se forskelle
+* **git switch feature-navn** Skift til branch
 
-git diff
+* **git switch -c feature-navn** Opret + skift
+
+* **git branch** Se branches:
+
+### 9. Merge en branch ind i main
+
+* **git switch main**
+
+* **git merge feature-navn**
+
+### 10. Se commit-historik
+
+* **git log --oneline** Kort historik
+
+* **git log** Fuld historik
+
+### 11. Undo og reset (mest brugt)
+
+* **git restore --staged filnavn.py** Fjern fil fra staging
+
+* **git restore filnavn.py** Tilbagefør ændringer i fil
+
+### 12. Klon et GitHub-repo
+
+* **git clone git@github.com:larsgam/repo.git**
+
+### 13. Sæt main som default branch (hvis projekt starter med master)
+
+* **git branch -M main**
+
+### 14. Se forskelle
+
+* **git diff**
 
 ---
 
-# Hurtigt workflow for daglig brug
-
-## Første gang i et nyt projekt:
-
-git init
-git add .
-git commit -m "First commit"
-git branch -M main
-git remote add origin https://github.com/brugernavn/repo.git
-git push -u origin main
-
-## Efterfølgende:
-
-git add .
-git commit -m "Fixet X, tilføjet Y"
-git push
+# 
