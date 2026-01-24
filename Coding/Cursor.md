@@ -1,0 +1,2 @@
+# Settings
+* open settings `CMD + ,`

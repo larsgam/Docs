@@ -31,7 +31,3 @@
 * `uv run marimo edit file.py`
 
 * `uv run marimo run file.py`
-
-
-
-

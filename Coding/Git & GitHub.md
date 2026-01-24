@@ -30,76 +30,76 @@
 
 ### 1. Start et nyt projekt
 
-* **git init**
+* `git init`
 
 ### 2. Tjek status
 
-* **git status**
+* `git status`
 
 ### 3. Tilføj ændringer til staging
 
-* **git add filnavn.py** Tilføj en bestemt fil
+* `git add filnavn.py` Tilføj en bestemt fil
 
-* **git add** .Tilføj alt
+* `git add .` Tilføj alt
 
 ### 4. Commit dine ændringer
 
-* **git commit -m** "Beskrivelse af ændringer"
+* `git commit -m "Beskrivelse af ændringer"`
 
 ### 5. Opret forbindelse til GitHub
 
-* **git remote add origin git@github.com:larsgam/repo.git**
+* `git remote add origin git@github.com:larsgam/repo.git`
 
 ### 6. Push første gang (ny branch)
 
-* git push -u origin main
+* `git push -u origin main`
 
-* **git push** Al efterfølgende push
-  
+* `git push` Al efterfølgende push
+
 
 ### 7. Hent ændringer fra GitHub
 
-* **git pull**
+* `git pull`
 
 ### 8. Branching
 
-* **git branch feature-navn** Opret en branch
+* `git branch feature-navn` Opret en branch
 
-* **git switch feature-navn** Skift til branch
+* `git switch feature-navn` Skift til branch
 
-* **git switch -c feature-navn** Opret + skift
+* `git switch -c feature-navn` Opret + skift
 
-* **git branch** Se branches:
+* `git branch` Se branches
 
 ### 9. Merge en branch ind i main
 
-* **git switch main**
+* `git switch main`
 
-* **git merge feature-navn**
+* `git merge feature-navn`
 
 ### 10. Se commit-historik
 
-* **git log --oneline** Kort historik
+* `git log --oneline` Kort historik
 
-* **git log** Fuld historik
+* `git log` Fuld historik
 
 ### 11. Undo og reset (mest brugt)
 
-* **git restore --staged filnavn.py** Fjern fil fra staging
+* `git restore --staged filnavn.py` Fjern fil fra staging
 
-* **git restore filnavn.py** Tilbagefør ændringer i fil
+* `git restore filnavn.py` Tilbagefør ændringer i fil
 
 ### 12. Klon et GitHub-repo
 
-* **git clone git@github.com:larsgam/repo.git**
+* `git clone git@github.com:larsgam/repo.git`
 
 ### 13. Sæt main som default branch (hvis projekt starter med master)
 
-* **git branch -M main**
+* `git branch -M main`
 
 ### 14. Se forskelle
 
-* **git diff**
+* `git diff`
 
 ---
 
