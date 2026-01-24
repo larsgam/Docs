@@ -4,25 +4,25 @@
 
 ### Første gang i et nyt projekt:
 
-* git init
+* `git init`
 
-* git add .
+* `git add .`
 
-* git commit -m "First commit"
+* `git commit -m "First commit"`
 
-* git branch -M main
+* `git branch -M main`
 
-* git remote add origin https://github.com/brugernavn/repo.git 
+* `git remote add origin https://github.com/brugernavn/repo.git` 
 
-* git push -u origin main
+* `git push -u origin main`
 
 ### Efterfølgende:
 
-* git add .
+* `git add .`
 
-* git commit -m "Fixet X, tilføjet Y"
+* `git commit -m "Fixet X, tilføjet Y"`
 
-* git push
+* `git push`
 
 
 
