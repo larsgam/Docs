@@ -1,0 +1,35 @@
+site_name: IT Dokumentation
+site_description: Dokumentation af IT-værktøjer og arbejdsgange
+site_url: https://larsgam.github.io/Docs/
+
+theme:
+  name: material
+  language: da
+  palette:
+    scheme: default
+    primary: teal
+    accent: amber
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+
+nav:
+  - Hjem: index.md
+  - Terminal: terminal.md
+  - Markdown: markdown.md
+  - Navngivning: naming-convensions.md
+  - Claude Setup: claude-setup.md
+  - Kodning:
+      - Cursor: coding/cursor.md
+      - Git & GitHub: coding/git-github.md
+      - uv: coding/uv.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
