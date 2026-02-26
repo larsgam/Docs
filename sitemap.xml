@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://larsgam.github.io/Docs/</loc>
+         <lastmod>2026-02-26</lastmod>
+    </url>
+    <url>
+         <loc>https://larsgam.github.io/Docs/claude-setup/</loc>
+         <lastmod>2026-02-26</lastmod>
+    </url>
+    <url>
+         <loc>https://larsgam.github.io/Docs/markdown/</loc>
+         <lastmod>2026-02-26</lastmod>
+    </url>
+    <url>
+         <loc>https://larsgam.github.io/Docs/naming-convensions/</loc>
+         <lastmod>2026-02-26</lastmod>
+    </url>
+    <url>
+         <loc>https://larsgam.github.io/Docs/terminal/</loc>
+         <lastmod>2026-02-26</lastmod>
+    </url>
+    <url>
+         <loc>https://larsgam.github.io/Docs/coding/cursor/</loc>
+         <lastmod>2026-02-26</lastmod>
+    </url>
+    <url>
+         <loc>https://larsgam.github.io/Docs/coding/git-github/</loc>
+         <lastmod>2026-02-26</lastmod>
+    </url>
+    <url>
+         <loc>https://larsgam.github.io/Docs/coding/uv/</loc>
+         <lastmod>2026-02-26</lastmod>
+    </url>
+</urlset>
